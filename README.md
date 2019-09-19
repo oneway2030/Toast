@@ -1,6 +1,6 @@
 ## Gradle 依赖
 
-**java方式引用**
+**方式引用**
 
 ```gradle
 
@@ -10,3 +10,23 @@ dependencies {
     implementation 'com.github.oneway2030:Toast:V1.0.0'
 }
 ```
+
+## 简单使用
+
+```
+   //初始化 Toast
+        ToastConfig.builder(this)
+                .setTextSize(12)   //设置字体大小
+                .setDefaultTextColor(Color.WHITE)//设置默认字体颜色 默认白色 #FFFFFF
+                .setSuccessColor(Color.GREEN) //成功背景   默认黑色透明百分之75  #C0000000
+                .setErrorColor(Color.RED) //错误背景色     默认黑色透明百分之75  #C0000000
+                .setWarningColor(Color.BLUE)//警告背景色   默认黑色透明百分之75  #C0000000
+                .setNormalColor(Color.GRAY) //普通背景色   默认黑色透明百分之75  #C0000000
+                .setTintIcon(true)//图标与文字是否同色     默认黑色透明百分之75  #C0000000
+                .build()
+
+#### 配置文件「[ToastConfig](https://github.com/oneway2030/Toast/blob/master/toast/src/main/java/com/oneway/toast/ToastConfig.java)」
+#### 使用参考Demo「[MainActivity](https://github.com/oneway2030/Toast/blob/master/app/src/main/java/com/oneway/sample/MainActivity.kt)」
+```
+
+

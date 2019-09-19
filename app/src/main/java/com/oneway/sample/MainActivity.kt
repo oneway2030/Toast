@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 .setSuccessColor(Color.GREEN)
                 .setErrorColor(Color.RED)
                 .setWarningColor(Color.BLUE)
+                .setNormalColor(Color.GRAY)
                 .setTintIcon(true)//是否图标与文字同色
                 .build()
         btn1.setOnClickListener(this)
