@@ -29,5 +29,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation lib.constraintlayout
     implementation lib.v7
-    implementation project(':toast')
+//    implementation project(':toast')
+    implementation 'com.github.oneway2030:Toast:V1.0.0'
 }
