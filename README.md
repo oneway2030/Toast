@@ -13,7 +13,7 @@ dependencies {
 
 ## 简单使用
 
-```
+```java
    //初始化 Toast
         ToastConfig.builder(this)
                 .setTextSize(12)   //设置字体大小
@@ -24,9 +24,10 @@ dependencies {
                 .setNormalColor(Color.GRAY) //普通背景色   默认黑色透明百分之75  #C0000000
                 .setTintIcon(true)//图标与文字是否同色     默认黑色透明百分之75  #C0000000
                 .build()
-
-#### 配置文件「[ToastConfig](https://github.com/oneway2030/Toast/blob/master/toast/src/main/java/com/oneway/toast/ToastConfig.java)」
-#### 使用参考Demo「[MainActivity](https://github.com/oneway2030/Toast/blob/master/app/src/main/java/com/oneway/sample/MainActivity.kt)」
 ```
+## 详细说明
+- [配置文件](ToastConfig.java)
+- [使用参考Demo](MainActivity.kt)
+
 
 
