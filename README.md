@@ -16,7 +16,7 @@ dependencies {
 ```java
    //初始化 Toast
     ToastConfig.builder(this)
-            .setTextSize(12)   //设置字体大小
+            .setTextSize(12)   //设置字体大小   默认14sp
             .setDefaultTextColor(Color.WHITE)//设置默认字体颜色 默认白色 #FFFFFF
             .setSuccessColor(Color.GREEN) //成功背景   默认黑色透明百分之75  #C0000000
             .setErrorColor(Color.RED) //错误背景色     默认黑色透明百分之75  #C0000000
